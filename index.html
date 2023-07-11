@@ -1,50 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi primera página web</title>
+  <title>Portafolio Personal</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-    }
-
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-weight: 900;
+    height: 275px;
+    margin: 0;
+}
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+     background-color: #07033a;
+     color:#00FF7F;
+     padding: 50px;
+     text-align: center;
+}
+
+    header img {
+      width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+      height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+      border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+}
+
+
+    h1 {
+    margin: 0;
+    text-align: center;
     }
 
-    main {
-      padding: 20px;
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+
+    nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+    nav ul li a {
+    color: #59A7E2;
+    text-decoration: none;
+    text-align: center;
+    }
+
+    section {
+    margin-bottom: 30px;
+    background-color:#FF7F00;
+    }
+
+    h2 {
+    color: #ffffff;
+    background-color:#3B2F2F;
+    padding: 5px;
+    margin-top: -33px;
+    text-align: center;
     }
 
     footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
+    background-color: #333333;
+    color: #c217e4;
+    padding: 10px;
+    margin-top: -33px;
+    text-align: center;
     }
+
   </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenido a mi página web</h1>
+    <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGVzdHVkaW8lMjBkZSUyMHByb2dyYW1jaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Cabecera de portafolio">
+   
+    <h1>Gabriel Mendoza</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <main>
+  
+  <section id="about">
     <h2>Sobre mí</h2>
-    <p>Hola, soy gabriel. Esta es mi primera página web.</p>
-
-    <h2>Mis intereses</h2>
+    <p>¡Hola! Soy Gabriel Mendoza, un apasionado programador web especializado en HTML, CSS y JavaScript. Me dedico al desarrollo y la educación en línea en startups colombianas. Estoy entusiasmado por crear experiencias web increíbles y colaborar en proyectos emocionantes.</p>
+  </section>
+  
+  <section id="projects">
+    <h2>Proyectos</h2>
     <ul>
-      <li>Programación</li>
-      <li>Diseño web</li>
-      <li>Tecnología</li>
+      <li>Proyecto 1</li>
+      <li>Proyecto 2</li>
+      <li>Proyecto 3</li>
     </ul>
-  </main>
-
+  </section>
+  
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Puedes comunicarte conmigo a través de mi correo electrónico: [correo electrónico]. También puedes encontrarme en [red social] como [nombre de usuario]. ¡Espero con interés trabajar contigo en emocionantes proyectos!</p>
+  </section>
+  
   <footer>
-    <p>&copy; 2023 Mi página web. Todos los derechos reservados.</p>
+    <p>&copy; 2023 Mi Portafolio Personal. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
+
